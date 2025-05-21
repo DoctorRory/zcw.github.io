@@ -939,3 +939,64 @@ footer {
   font-weight: bold;
   color: #d9534f; /* 红色强调 */
 }
+
+/* 基础样式 */
+.navbar {
+  background-color: #ffffff;     /* 白色底色 */
+  
+  font-family: 'Cursive', sans-serif;
+  color: #333;  /* 整体默认字体颜色 */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* 淡淡阴影 */
+}
+
+.nav-row {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* 允许换行 */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Cursive', sans-serif;
+  color:#f78a8a;
+  text-decoration: none;
+  /*font-style: italic;        设置为斜体 */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  width: 25%;
+  /*border-bottom: 1px solid #e23b3b;  每个 li 底部边线 */
+  text-align: center;
+}
+
+.nav-links li a {
+  display: block;            /* 链接占满整个 li */
+  padding: 12px 0;
+  text-decoration: none;
+  color: #555; /* 导航链接颜色 */
+  font-size: 18px; /* 字体大小 */
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.nav-links li a:hover {
+  background-color: #f0f0f0;
+  color: #000; /* 悬停时颜色变化 */
+}
