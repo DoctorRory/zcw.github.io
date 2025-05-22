@@ -323,7 +323,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-aside {
-  width: 38.2%;
+  width: 38%;
   top: 0;
   left: 0;
   bottom: 0;
@@ -979,8 +979,7 @@ footer {
 }
 
 .nav-links li {
-  width: 25%;
-  /*border-bottom: 1px solid #e23b3b;  每个 li 底部边线 */
+  width: 30%;
   text-align: center;
 }
 
